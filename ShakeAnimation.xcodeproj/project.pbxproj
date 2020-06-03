@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDA7EAD024878954006E5B13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA7EACF24878954006E5B13 /* AppDelegate.swift */; };
+		EDA7EAD62487895B006E5B13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA7EAD52487895B006E5B13 /* Assets.xcassets */; };
+		EDA7EAD92487895B006E5B13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA7EAD82487895B006E5B13 /* Preview Assets.xcassets */; };
+		EDA7EADC2487895B006E5B13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA7EADA2487895B006E5B13 /* LaunchScreen.storyboard */; };
+		EDA7EAE72487895C006E5B13 /* ShakeAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA7EAE62487895C006E5B13 /* ShakeAnimationTests.swift */; };
+		EDA7EAF22487895C006E5B13 /* ShakeAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA7EAF12487895C006E5B13 /* ShakeAnimationUITests.swift */; };
+		EDA7EB00248789F1006E5B13 /* ShakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA7EAFF248789F1006E5B13 /* ShakeViewController.swift */; };
+		EDA7EB0224878BFF006E5B13 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA7EB0124878BFF006E5B13 /* NextViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDA7EAE32487895C006E5B13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDA7EAC424878953006E5B13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDA7EACB24878954006E5B13;
+			remoteInfo = ShakeAnimation;
+		};
+		EDA7EAEE2487895C006E5B13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDA7EAC424878953006E5B13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDA7EACB24878954006E5B13;
+			remoteInfo = ShakeAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDA7EACC24878954006E5B13 /* ShakeAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakeAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA7EACF24878954006E5B13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDA7EAD52487895B006E5B13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDA7EAD82487895B006E5B13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDA7EADB2487895B006E5B13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDA7EADD2487895B006E5B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA7EAE22487895C006E5B13 /* ShakeAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakeAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA7EAE62487895C006E5B13 /* ShakeAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeAnimationTests.swift; sourceTree = "<group>"; };
+		EDA7EAE82487895C006E5B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA7EAED2487895C006E5B13 /* ShakeAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakeAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA7EAF12487895C006E5B13 /* ShakeAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeAnimationUITests.swift; sourceTree = "<group>"; };
+		EDA7EAF32487895C006E5B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA7EAFF248789F1006E5B13 /* ShakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeViewController.swift; sourceTree = "<group>"; };
+		EDA7EB0124878BFF006E5B13 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDA7EAC924878954006E5B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA7EADF2487895C006E5B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA7EAEA2487895C006E5B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDA7EAC324878953006E5B13 = {
+			isa = PBXGroup;
+			children = (
+				EDA7EACE24878954006E5B13 /* ShakeAnimation */,
+				EDA7EAE52487895C006E5B13 /* ShakeAnimationTests */,
+				EDA7EAF02487895C006E5B13 /* ShakeAnimationUITests */,
+				EDA7EACD24878954006E5B13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDA7EACD24878954006E5B13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDA7EACC24878954006E5B13 /* ShakeAnimation.app */,
+				EDA7EAE22487895C006E5B13 /* ShakeAnimationTests.xctest */,
+				EDA7EAED2487895C006E5B13 /* ShakeAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDA7EACE24878954006E5B13 /* ShakeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				EDA7EACF24878954006E5B13 /* AppDelegate.swift */,
+				EDA7EAFF248789F1006E5B13 /* ShakeViewController.swift */,
+				EDA7EB0124878BFF006E5B13 /* NextViewController.swift */,
+				EDA7EAD52487895B006E5B13 /* Assets.xcassets */,
+				EDA7EADA2487895B006E5B13 /* LaunchScreen.storyboard */,
+				EDA7EADD2487895B006E5B13 /* Info.plist */,
+				EDA7EAD72487895B006E5B13 /* Preview Content */,
+			);
+			path = ShakeAnimation;
+			sourceTree = "<group>";
+		};
+		EDA7EAD72487895B006E5B13 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EDA7EAD82487895B006E5B13 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDA7EAE52487895C006E5B13 /* ShakeAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDA7EAE62487895C006E5B13 /* ShakeAnimationTests.swift */,
+				EDA7EAE82487895C006E5B13 /* Info.plist */,
+			);
+			path = ShakeAnimationTests;
+			sourceTree = "<group>";
+		};
+		EDA7EAF02487895C006E5B13 /* ShakeAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDA7EAF12487895C006E5B13 /* ShakeAnimationUITests.swift */,
+				EDA7EAF32487895C006E5B13 /* Info.plist */,
+			);
+			path = ShakeAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDA7EACB24878954006E5B13 /* ShakeAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA7EAF62487895C006E5B13 /* Build configuration list for PBXNativeTarget "ShakeAnimation" */;
+			buildPhases = (
+				EDA7EAC824878954006E5B13 /* Sources */,
+				EDA7EAC924878954006E5B13 /* Frameworks */,
+				EDA7EACA24878954006E5B13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShakeAnimation;
+			productName = ShakeAnimation;
+			productReference = EDA7EACC24878954006E5B13 /* ShakeAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDA7EAE12487895C006E5B13 /* ShakeAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA7EAF92487895C006E5B13 /* Build configuration list for PBXNativeTarget "ShakeAnimationTests" */;
+			buildPhases = (
+				EDA7EADE2487895C006E5B13 /* Sources */,
+				EDA7EADF2487895C006E5B13 /* Frameworks */,
+				EDA7EAE02487895C006E5B13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDA7EAE42487895C006E5B13 /* PBXTargetDependency */,
+			);
+			name = ShakeAnimationTests;
+			productName = ShakeAnimationTests;
+			productReference = EDA7EAE22487895C006E5B13 /* ShakeAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDA7EAEC2487895C006E5B13 /* ShakeAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA7EAFC2487895C006E5B13 /* Build configuration list for PBXNativeTarget "ShakeAnimationUITests" */;
+			buildPhases = (
+				EDA7EAE92487895C006E5B13 /* Sources */,
+				EDA7EAEA2487895C006E5B13 /* Frameworks */,
+				EDA7EAEB2487895C006E5B13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDA7EAEF2487895C006E5B13 /* PBXTargetDependency */,
+			);
+			name = ShakeAnimationUITests;
+			productName = ShakeAnimationUITests;
+			productReference = EDA7EAED2487895C006E5B13 /* ShakeAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDA7EAC424878953006E5B13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Holo;
+				TargetAttributes = {
+					EDA7EACB24878954006E5B13 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					EDA7EAE12487895C006E5B13 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = EDA7EACB24878954006E5B13;
+					};
+					EDA7EAEC2487895C006E5B13 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = EDA7EACB24878954006E5B13;
+					};
+				};
+			};
+			buildConfigurationList = EDA7EAC724878953006E5B13 /* Build configuration list for PBXProject "ShakeAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDA7EAC324878953006E5B13;
+			productRefGroup = EDA7EACD24878954006E5B13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDA7EACB24878954006E5B13 /* ShakeAnimation */,
+				EDA7EAE12487895C006E5B13 /* ShakeAnimationTests */,
+				EDA7EAEC2487895C006E5B13 /* ShakeAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDA7EACA24878954006E5B13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA7EADC2487895B006E5B13 /* LaunchScreen.storyboard in Resources */,
+				EDA7EAD92487895B006E5B13 /* Preview Assets.xcassets in Resources */,
+				EDA7EAD62487895B006E5B13 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA7EAE02487895C006E5B13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA7EAEB2487895C006E5B13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDA7EAC824878954006E5B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA7EAD024878954006E5B13 /* AppDelegate.swift in Sources */,
+				EDA7EB0224878BFF006E5B13 /* NextViewController.swift in Sources */,
+				EDA7EB00248789F1006E5B13 /* ShakeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA7EADE2487895C006E5B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA7EAE72487895C006E5B13 /* ShakeAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA7EAE92487895C006E5B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA7EAF22487895C006E5B13 /* ShakeAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDA7EAE42487895C006E5B13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDA7EACB24878954006E5B13 /* ShakeAnimation */;
+			targetProxy = EDA7EAE32487895C006E5B13 /* PBXContainerItemProxy */;
+		};
+		EDA7EAEF2487895C006E5B13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDA7EACB24878954006E5B13 /* ShakeAnimation */;
+			targetProxy = EDA7EAEE2487895C006E5B13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDA7EADA2487895B006E5B13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA7EADB2487895B006E5B13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDA7EAF42487895C006E5B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDA7EAF52487895C006E5B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDA7EAF72487895C006E5B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ShakeAnimation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ShakeAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Holo.ShakeAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDA7EAF82487895C006E5B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ShakeAnimation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ShakeAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Holo.ShakeAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDA7EAFA2487895C006E5B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShakeAnimationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Holo.ShakeAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShakeAnimation.app/ShakeAnimation";
+			};
+			name = Debug;
+		};
+		EDA7EAFB2487895C006E5B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShakeAnimationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Holo.ShakeAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShakeAnimation.app/ShakeAnimation";
+			};
+			name = Release;
+		};
+		EDA7EAFD2487895C006E5B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShakeAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Holo.ShakeAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShakeAnimation;
+			};
+			name = Debug;
+		};
+		EDA7EAFE2487895C006E5B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShakeAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Holo.ShakeAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShakeAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDA7EAC724878953006E5B13 /* Build configuration list for PBXProject "ShakeAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA7EAF42487895C006E5B13 /* Debug */,
+				EDA7EAF52487895C006E5B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA7EAF62487895C006E5B13 /* Build configuration list for PBXNativeTarget "ShakeAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA7EAF72487895C006E5B13 /* Debug */,
+				EDA7EAF82487895C006E5B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA7EAF92487895C006E5B13 /* Build configuration list for PBXNativeTarget "ShakeAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA7EAFA2487895C006E5B13 /* Debug */,
+				EDA7EAFB2487895C006E5B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA7EAFC2487895C006E5B13 /* Build configuration list for PBXNativeTarget "ShakeAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA7EAFD2487895C006E5B13 /* Debug */,
+				EDA7EAFE2487895C006E5B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDA7EAC424878953006E5B13 /* Project object */;
+}
